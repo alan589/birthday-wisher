@@ -6,8 +6,11 @@ import os
 
 today = dt.datetime.now()
 
+# email
 MY_EMAIL = ""
+# app password
 MY_PASS = ""
+# smtp email provider
 SMTP = ""
 
 with open("birthdays.csv", "r") as birthday_file:
